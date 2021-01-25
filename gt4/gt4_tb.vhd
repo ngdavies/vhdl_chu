@@ -152,7 +152,7 @@ begin
       failed <= failed or agtb_tb;
       wait for 2 ns;
 
-      done <= '0';
+      done <= '1';
       
       -- terminate simulation
       assert failed = '0'
